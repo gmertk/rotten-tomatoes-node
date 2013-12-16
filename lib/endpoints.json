@@ -1,0 +1,23 @@
+{
+	"baseUrl": "http://api.rottentomatoes.com/api/public/v1.0/",
+	"methods": {
+		"movie": {
+			"search": {"resource": "movies.json", "type": "get" },
+			"get": {"resource": "movies/:id.json", "type": "get" },
+			"reviews": {"resource": "movies/:id/reviews.json", "type": "get" },
+			"clips": {"resource": "movies/:id/clips.json", "type": "get" }
+		},
+		"listMovies": {
+			"boxOffice": {"resource": "lists/movies/box_office.json", "type": "get"},
+			"inTheaters": {"resource": "lists/movies/in_theaters.json", "type": "get"},
+			"opening": {"resource": "lists/movies/opening.json", "type": "get"},
+			"upcoming": {"resource": "lists/movies/upcoming.json", "type": "get"}
+		},
+		"listDvds": {
+			"topRentals": {"resource": "lists/dvds/top_rentals.json", "type": "get"},
+			"currentReleases": {"resource": "lists/dvds/current_releases.json", "type": "get"},
+			"newReleases": {"resource": "lists/dvds/new_releases.json", "type": "get"},
+			"upcoming": {"resource": "lists/dvds/upcoming.json", "type": "get"}			
+		}
+	}
+}

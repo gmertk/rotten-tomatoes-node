@@ -1,0 +1,28 @@
+{
+  "name": "rotten-tomatoes-api",
+  "version": "0.0.1",
+  "author": "Gunay Mert Karadogan",
+  "dependencies": {
+    "superagent": "~0.15.7"
+  },
+  "description": "Node.js wrapper for rottentomatoes api.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmertk/rotten-tomatoes-node.git"
+  },
+  "keywords": [
+    "rottentomatoes",
+    "meta",
+    "movie",
+    "review"
+  ],
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/gmertk/rotten-tomatoes-node/issues"
+  }
+}
