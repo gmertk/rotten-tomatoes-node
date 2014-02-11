@@ -5,7 +5,8 @@
 			"search": {"resource": "movies.json", "type": "get" },
 			"get": {"resource": "movies/:id.json", "type": "get" },
 			"reviews": {"resource": "movies/:id/reviews.json", "type": "get" },
-			"clips": {"resource": "movies/:id/clips.json", "type": "get" }
+			"clips": {"resource": "movies/:id/clips.json", "type": "get" },
+			"alias": {"resource": "movie_alias.json", "type": "get" }
 		},
 		"listMovies": {
 			"boxOffice": {"resource": "lists/movies/box_office.json", "type": "get"},
