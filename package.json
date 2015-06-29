@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "author": "Gunay Mert Karadogan",
   "dependencies": {
+    "function-rate-limit": "^1.0.1",
     "superagent": "~0.15.7"
   },
   "description": "Node.js wrapper for rottentomatoes api.",
