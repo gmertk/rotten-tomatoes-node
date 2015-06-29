@@ -6,6 +6,7 @@
 			"get": {"resource": "movies/:id.json", "type": "get" },
 			"reviews": {"resource": "movies/:id/reviews.json", "type": "get" },
 			"clips": {"resource": "movies/:id/clips.json", "type": "get" },
+			"similar": {"resource": "movies/:id/similar.json", "type": "get" },
 			"alias": {"resource": "movie_alias.json", "type": "get" }
 		},
 		"listMovies": {
